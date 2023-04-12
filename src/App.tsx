@@ -18,15 +18,15 @@ function App() {
       <div className={styles.container}>
         <div className={styles.liffIdBox}>
           <Input
-            label="CURRENT LIFF ID"
+            label="LIFF ID"
             readonly
             value={process.env.REACT_APP_LIFF_ID || ''}
           />
         </div>
-        <h1>Client APIs</h1>
+        <h1>@THANAㅣBusiness.</h1>
         {!isLoggedIn ? (
           <Snippet
-            apiName="liff.login()"
+            apiName="LOGIN!"
             version="2.0"
             docUrl="https://developers.line.biz/en/reference/liff/#login"
             skipAutoRun={true}
