@@ -28,7 +28,9 @@ function App() {
           <Snippet
             apiName="LOGIN!"
             version="2.0"
-            docUrl="https://developers.line.biz/en/reference/liff/#login"
+            docUrl={async () => {
+              return liff.login()
+            }}
             skipAutoRun={true}
             runner={async () => {
               return liff.login()
