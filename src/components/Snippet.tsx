@@ -69,7 +69,7 @@ export default function Snippet({
             size="S"
             aria-disabled="false"
             onClick={openDoc}>
-            DOCUMENT
+            เพิ่มเติม
           </Button>{' '}
           <Button
             variant="primary"
@@ -77,7 +77,7 @@ export default function Snippet({
             onClick={() => {
               callRunner()
             }}>
-            RUN
+            กด
           </Button>
         </div>
       </div>
