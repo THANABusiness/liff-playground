@@ -20,7 +20,7 @@ export default function Header() {
       <div className={styles.headerContainer}>
         <div className={styles.header}>
           <div className={styles.left}>
-            <h1>LIFF Playground</h1>
+            <h1>@THANAㅣBusiness.</h1>
           </div>
           <div className={styles.right}>
             <div className={styles.gitHubButton}>
