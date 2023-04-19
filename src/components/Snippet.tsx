@@ -69,7 +69,7 @@ export default function Snippet({
             size="S"
             aria-disabled="false"
             onClick={openDoc}>
-            เพิ่มเติม
+            เรียนรู้เพิ่มเติม
           </Button>{' '}
           <Button
             variant="primary"
