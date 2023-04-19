@@ -26,7 +26,7 @@ function App() {
         <h1>@THANAㅣBusiness.</h1>
         {!isLoggedIn ? (
           <Snippet
-            apiName="LOGIN!"
+            apiName="LOGIN"
             version="2.0"
             docUrl="/"
             skipAutoRun={true}
@@ -36,7 +36,7 @@ function App() {
           />
         ) : (
           <Snippet
-            apiName="liff.logout()"
+            apiName="LOGOUT"
             version="2.0"
             docUrl="https://developers.line.biz/en/reference/liff/#logout"
             skipAutoRun={true}
@@ -59,7 +59,7 @@ function App() {
           }}
         />
         <Snippet
-          apiName="liff.getLanguage()"
+          apiName="LANGUAGE"
           version="2.0"
           docUrl="https://developers.line.biz/en/reference/liff/#get-language"
           runner={async () => {
@@ -67,7 +67,7 @@ function App() {
           }}
         />
         <Snippet
-          apiName="liff.getVersion()"
+          apiName="VERSION"
           version="2.0"
           docUrl="https://developers.line.biz/en/reference/liff/#get-version"
           runner={async () => {
@@ -75,7 +75,7 @@ function App() {
           }}
         />
         <Snippet
-          apiName="liff.getLineVersion()"
+          apiName="LINE VERSION"
           version="2.0"
           docUrl="https://developers.line.biz/en/reference/liff/#get-line-version"
           runner={async () => {
