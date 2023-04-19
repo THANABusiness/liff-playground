@@ -21,7 +21,8 @@
 .outlined {
   color: #284474;
   background-color: #ffffff;
-  border: #06c755 1px solid;
+  /*สีเดิม06c755*/
+  border: #284474 1px solid;
 }
 
 .outlined:hover {
