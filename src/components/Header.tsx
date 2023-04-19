@@ -34,7 +34,7 @@ export default function Header() {
             </div>
             {!liff.isInClient() && (
               <Button variant="primary" size="S" onClick={openInApp}>
-                Open In LINE
+                เปิดในไลน์
               </Button>
             )}
           </div>
