@@ -23,7 +23,7 @@ function App() {
             value={process.env.REACT_APP_LIFF_ID || ''}
           />
         </div>
-        <h1>@THANAㅣBusiness.</h1>
+        
         {!isLoggedIn ? (
           <Snippet
             apiName="LOGIN"
