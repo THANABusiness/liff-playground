@@ -65,6 +65,8 @@ function App() {
                   "type": "flex",
                   "altText": "หัวเรื่อง",
                   "contents": {
+                    "type": "text",
+                    "text": "แก้ไขตรงนี้!"
                   }
                }
             ],
