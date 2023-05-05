@@ -65,8 +65,6 @@ function App() {
                   "type": "flex",
                   "altText": "หัวเรื่อง",
                   "contents":  
-                 
-                  !***************!
 
                }
             ],
