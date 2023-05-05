@@ -61,10 +61,14 @@ function App() {
           hideResponse={true}
           defaultRequestPayload={JSON.stringify(
             [
-              {
-                type: 'text',
-                text: 'Hello, World!',
-              },
+               {
+                  "type": "flex",
+                  "altText": "หัวเรื่อง",
+                  "contents":  
+                 
+                  !***************!
+
+               }
             ],
             null,
             4
