@@ -54,7 +54,7 @@ function App() {
         
         
         <Snippet
-          apiName="liff.shareTargetPicker"
+          apiName="shareTargetPicker"
           version="2.0"
           docUrl="https://developers.line.biz/en/reference/liff/#share-target-picker"
           needRequestPayload={true}
@@ -87,6 +87,29 @@ function App() {
             }
           }}
         />
+
+        <Snippet
+          apiName="shareTargetPicker"
+          version="2.0"
+          docUrl="https://developers.line.biz/en/reference/liff/#share-target-picker"
+          needRequestPayload={true}
+          hideResponse={true}
+          defaultRequestPayload={JSON.stringify(
+            [
+              {
+                type: 'text',
+                text: 'Hello, World!',
+              },
+            ],
+            null,
+            4
+          )}
+          skipAutoRun={true}
+          runner={async (options) => {
+            return await liff.shareTargetPicker(JSON.parse(options))
+          }}
+        />
+
         <Snippet
           apiName="liff.closeWindow"
           version="1.0"
