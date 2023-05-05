@@ -50,14 +50,7 @@ function App() {
             }}
           />
         )}
-        <Snippet
-          apiName="liff.getOS()"
-          version="2.0"
-          docUrl="https://developers.line.biz/en/reference/liff/#get-os"
-          runner={async () => {
-            return liff.getOS()
-          }}
-        />
+       
         <Snippet
           apiName="LANGUAGE"
           version="2.0"
