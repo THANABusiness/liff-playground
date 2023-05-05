@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@line/liff": "2.15.0",
+    "@line/liff": "2.21.4",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "11.2.7",
     "@testing-library/user-event": "12.8.3",
