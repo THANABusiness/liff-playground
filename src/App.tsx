@@ -96,11 +96,332 @@ function App() {
           hideResponse={true}
           defaultRequestPayload={JSON.stringify(
             [
-              {
-                type: 'text',
-                text: 'Hello, World!',
-              },
-            ],
+        {
+    "type": "flex",
+    "altText": " Message",
+    "contents": {
+        "type": "carousel",
+        "contents": [
+            {
+                "type": "bubble",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "โปรโมชั่น",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "ฝาก 10฿ รับ 100",
+                            "align": "center",
+                            "wrap": true,
+                            "weight": "bold",
+                            "size": "xl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "(เทรินโอเวอร์ 1 เท่า)",
+                            "margin": "md",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "separator"
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "สมัครเลย",
+                                "uri": "https://liff.line.me/1657395900-VxKP6gdg"
+                            },
+                            "style": "primary"
+                        },
+                        {
+                            "type": "text",
+                            "text": "รับได้ตลอด ถอนได้ไม่อั้น",
+                            "margin": "md",
+                            "align": "center"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "โปรโมชั่น",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "ฝาก 50฿ รับ 600",
+                            "align": "center",
+                            "weight": "bold",
+                            "size": "xl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "(เทรินโอเวอร์ 1 เท่า)",
+                            "align": "center",
+                            "margin": "md"
+                        }
+                    ]
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "separator"
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "สมัครเลย",
+                                "uri": "https://liff.line.me/1657395900-VxKP6gdg"
+                            },
+                            "style": "primary"
+                        },
+                        {
+                            "type": "text",
+                            "text": "รับได้ตลอด ถอนได้ไม่อั้น",
+                            "margin": "md",
+                            "align": "center"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "โปรโมชั่น",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "ฝาก 100฿ รับ 1,300",
+                            "align": "center",
+                            "weight": "bold",
+                            "size": "xl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "(เทรินโอเวอร์ 1 เท่า)",
+                            "align": "center",
+                            "margin": "md"
+                        }
+                    ]
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "separator"
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "สมัครเลย",
+                                "uri": "https://liff.line.me/1657395900-VxKP6gdg"
+                            },
+                            "style": "primary"
+                        },
+                        {
+                            "type": "text",
+                            "text": "รับได้ตลอด ถอนได้ไม่อั้น",
+                            "margin": "md",
+                            "align": "center"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "โปรโมชั่น",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "ฝาก 500฿ รับ 7,000",
+                            "align": "center",
+                            "weight": "bold",
+                            "size": "xl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "(เทรินโอเวอร์ 1 เท่า)",
+                            "align": "center",
+                            "margin": "md"
+                        }
+                    ]
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "separator"
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "สมัครเลย",
+                                "uri": "https://liff.line.me/1657395900-VxKP6gdg"
+                            },
+                            "style": "primary"
+                        },
+                        {
+                            "type": "text",
+                            "text": "รับได้ตลอด ถอนได้ไม่อั้น",
+                            "margin": "md",
+                            "align": "center"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "header": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "โปรโมชั่น",
+                            "align": "center"
+                        }
+                    ]
+                },
+                "hero": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "ฝาก 1,000฿ รับ 15,000",
+                            "align": "center",
+                            "weight": "bold",
+                            "size": "xl"
+                        },
+                        {
+                            "type": "text",
+                            "text": "(เทรินโอเวอร์ 1 เท่า)",
+                            "align": "center",
+                            "margin": "md"
+                        }
+                    ]
+                },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "separator"
+                        }
+                    ]
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "สมัครเลย",
+                                "uri": "https://liff.line.me/1657395900-VxKP6gdg"
+                            },
+                            "style": "primary"
+                        },
+                        {
+                            "type": "text",
+                            "text": "รับได้ตลอด ถอนได้ไม่อั้น",
+                            "margin": "md",
+                            "align": "center"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
+      ],
             null,
             4
           )}
