@@ -83,7 +83,6 @@ export default function Snippet({
       </div>
       {needRequestPayload && (
         <TextArea
-          label="สถานะ"
           helpText="Enter the request payload for API request"
           value={payload}
           onChange={(e) => setPayload(e?.currentTarget?.value)}
@@ -93,7 +92,6 @@ export default function Snippet({
       {!hideResponse &&
         (useTextareaForResponse ? (
           <TextArea
-            label="สถานะ"
             helpText="Run this API to get the response"
             value={response}
             rows={4}
@@ -101,7 +99,6 @@ export default function Snippet({
           />
         ) : (
           <Input
-            label="สถานะ"
             helpText="Run this API to get the response"
             readonly={true}
             value={response}
