@@ -16,30 +16,30 @@ export default function Header() {
   }
 
   return (
-    <div className={styles.headerContainer}>
-      <div className={styles.headerContainer}>
-        <div className={styles.header}>
-          <div className={styles.left}>
-            <h1>@THANAㅣBusiness.</h1>
-          </div>
-          <div className={styles.right}>
-            <div className={styles.gitHubButton}>
-              <Button
-                appearance="outlined"
-                variant="primary"
-                size="S"
-                onClick={openGitHub}>
-                GitHub
-              </Button>
-            </div>
-            {!liff.isInClient() && (
-              <Button variant="primary" size="S" onClick={openInApp}>
-                เปิดในไลน์
-              </Button>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
+   // <div className={styles.headerContainer}>
+    //  <div className={styles.headerContainer}>
+       // <div className={styles.header}>
+         // <div className={styles.left}>
+            //<h1>@THANAㅣBusiness.</h1>
+         // </div>
+         // <div className={styles.right}>
+           // <div className={styles.gitHubButton}>
+            //  <Button
+             //   appearance="outlined"
+            //    variant="primary"
+              //  size="S"
+                //onClick={openGitHub}>
+                //GitHub
+             // </Button>
+           // </div>
+          //  {!liff.isInClient() && (
+           //   <Button variant="primary" size="S" onClick={openInApp}>
+           //     เปิดในไลน์
+         //     </Button>
+         //   )}
+      //    </div>
+      //  </div>
+     // </div>
+   // </div>
   )
 }
