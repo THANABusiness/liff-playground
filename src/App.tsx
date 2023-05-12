@@ -49,6 +49,31 @@ function App() {
               return liff.logout()
             }}
           />
+           <Snippet
+          apiName="shareTargetPicker"
+          version="2.0"
+          docUrl="https://developers.line.biz/en/reference/liff/#share-target-picker"
+          needRequestPayload={true}
+          hideResponse={true}
+          defaultRequestPayload={JSON.stringify(
+            [
+               {
+                  "type": "flex",
+                  "altText": "หัวเรื่อง",
+                  "contents": {
+                    "type": "text",
+                    "text": "แก้ไขตรงนี้!"
+                  }
+               }
+            ],
+            null,
+            4
+          )}
+          skipAutoRun={true}
+          runner={async (options) => {
+            return await liff.shareTargetPicker(JSON.parse(options))
+          }}
+        />
         )}
        
         
